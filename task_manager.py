@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple Task Manager - A lightweight CLI tool for managing tasks
+Quickdo - Lightning-fast task management for the command line
 """
 
 import json
@@ -87,10 +87,10 @@ class TaskManager:
 def print_help():
     """Print help message"""
     help_text = """
-Task Manager - Simple CLI Task Management
+Quickdo - Lightning-fast task management
 
 USAGE:
-    python task_manager.py <command> [arguments]
+    python3 task_manager.py <command> [arguments]
 
 COMMANDS:
     add <title> [status]     Add a new task (default status: backlog)
@@ -104,12 +104,12 @@ STATUSES:
     backlog, up-next, in-progress, top-priority, done
 
 EXAMPLES:
-    python task_manager.py add "Fix login bug" in-progress
-    python task_manager.py list
-    python task_manager.py list in-progress
-    python task_manager.py update 5 done
-    python task_manager.py search "website"
-    python task_manager.py delete 3
+    python3 task_manager.py add "Fix login bug" in-progress
+    python3 task_manager.py list
+    python3 task_manager.py list in-progress
+    python3 task_manager.py update 5 done
+    python3 task_manager.py search "website"
+    python3 task_manager.py delete 3
 """
     print(help_text)
 

@@ -1,9 +1,10 @@
-# Task Manager
+# Quickdo
 
-A simple, lightweight task management tool - much cleaner than bulky project management apps!
+⚡ Lightning-fast task management that doesn't slow you down
 
-![Task Manager Demo](https://img.shields.io/badge/Python-3.7+-blue.svg)
+![Python Version](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)
 
 ## ✨ Features
 
@@ -114,8 +115,8 @@ Clean, modern interface with drag-free column view and quick actions.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/task-manager.git
-cd task-manager
+git clone https://github.com/YOUR_USERNAME/Quickdo.git
+cd Quickdo
 
 # For CLI only, no installation needed!
 python3 task_manager.py help
@@ -137,9 +138,9 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 MIT License - see LICENSE file for details
 
-## 🙏 Why This Tool?
+## 🙏 Why Quickdo?
 
-Built for people who find traditional project management tools too clunky and slow. This tool focuses on simplicity, speed, and keeping your data under your control.
+Built for people who find traditional project management tools too clunky and slow. **Quickdo** focuses on simplicity, speed, and keeping your data under your control.
 
 - ⚡ **Faster** - No loading times, instant access
 - 🎯 **Focused** - Just tasks, no distractions

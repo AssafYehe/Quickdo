@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Task Manager - Simple Web Interface
+Quickdo - Lightning-fast web interface
 Run this for a clean, minimal web interface to manage your tasks
 """
 
@@ -26,7 +26,7 @@ HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Task Manager</title>
+    <title>Quickdo - Task Manager</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -158,7 +158,7 @@ HTML_TEMPLATE = """
 </head>
 <body>
     <div class="container">
-        <h1>📋 My Tasks</h1>
+        <h1>⚡ Quickdo</h1>
         
         <div class="add-task">
             <div class="input-group">
@@ -327,7 +327,7 @@ def delete_task(task_id):
     return jsonify({"success": True})
 
 if __name__ == '__main__':
-    print("🚀 Task Manager starting at http://localhost:5000")
+    print("⚡ Quickdo starting at http://localhost:5000")
     print("Press Ctrl+C to stop")
     app.run(debug=True, port=5000)
 
